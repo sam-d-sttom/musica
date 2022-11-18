@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    padding: 0 62px 0 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 73px;
+}
+
+#searchBar{
+    width: 87.66%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#searchInput{
+    background: #1E1E1E;
+    border: none;
+    outline: none;
+    width: 70%;
+    margin-left: 1.98%;
+}
+
+#nav{
+    width: 52px;
+    height: 377px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#navSecOne, #navSecTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #1A1E1F;
+    border-radius: 32px;
+}
+
+#navSecOne{
+    margin-bottom: 20px;
+    height: 230px;
+}
+
+#navSecTwo{
+    height: 127px;
+}
+
+#homeIcon{
+    filter: drop-shadow(0px 4px 4px rgb(255, 238, 0));
+}
+
+#nav li:hover{
+    cursor: pointer;
+}
+
+#homeIcon path{
+    fill: #FACD66;
+}
+
+#homeSection{
+    margin-left: 96px;
+    padding-right: 59px;
+}
+
+#homeSectionTopDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#heroSection{
+    width: 686px;
+    height: 373px;
+    background: #609EAF;
+    border-radius: 40px;
+    padding-top: 38px;
+    padding-left: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+#heroSectionH3{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+
+#heroSectionDiv{
+    width: 276px;
+}
+
+#heroSectionH2{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+#heroSectionP{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+#heroSectionSvg{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#heroSectionImg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#topChartSectionH2{
+    margin-bottom: 14px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #EFEEE0;
+}
+
+.chartListDiv{
+    width: 417px;
+    height: 96px;
+    background: #1A1E1F;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-left: 17px;
+    padding-left: 21px;
+}
+
+.chartListDiv img{
+    margin-right: 14px;
+}
+
+.chartAndLike{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    
+}
+
+.chartLikeBtn{
+    justify-self: flex-end;
+}
+
+.chartContent span{
+    display: block;
+}
+
+.chartTitle .playlistProducer .playTime{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.chartTitle{
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.playlistProducer{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.playTime{
+    font-size: 12px;
+    line-height: 120%; 
+    color: #FFFFFF;
+}
+
+.chartLikeBtn{
+    position: relative;
+}
+
+.heartChart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#newReleaseSection{
+    padding: 43px 0 0 0;
+    margin-bottom: 120px;
+}
+
+#newReleaseH2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #EFEEE0;
+}
+
+#newReleaseContent{
+    margin-top: 13px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: all .5s;
+}
+
+#newReleaseContent::-webkit-scrollbar{
+    display: none;
+}
+
+#newReleaseContentInnerDiv{
+    width: calc((153px * 7) + 250px);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 0;
+}
+
+.newReleasesSongs > div{
+    scroll-snap-align: start;
+    width: 153px;
+    height: 153px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.newReleasesSongs > span{
+    display: block;
+}
+
+.newReleasesSongsTitle{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+.newReleasesSongsArtist{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*For the music player.*/
+#player{
+    position: fixed;
+    width: 100vw;
+    height: 115px;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12.5485px);
+    filter: drop-shadow(0px -25px 100px rgba(16, 16, 16, 0.51));
+    z-index: 10;
+    padding: 0, 66px, 0, 101px;
+}

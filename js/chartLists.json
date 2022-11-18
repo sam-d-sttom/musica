@@ -1,0 +1,28 @@
+{
+    "chartList": [
+        {
+            "PlaylistCover" : "img/Golden-age-of-80s.png",
+            "chartTitle" : "Golden age of 80s",
+            "playlistProducer" : "Sean swadder",
+            "playTime" : "2:34:45",
+            "aboutPlaylist" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+            "totalSongs" : "64 songs ~ 16 hrs+"
+        },
+        {
+            "PlaylistCover" : "img/Reggae-“n”-blues.png",
+            "chartTitle" : "Reggae “n” blues",
+            "playlistProducer" : "Dj YK mule",
+            "playTime" : "1:02:42",
+            "aboutPlaylist" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+            "totalSongs" : "64 songs ~ 16 hrs+"
+        },
+        {
+            "PlaylistCover" : "img/Tomorrow’s-tunes.png",
+            "chartTitle" : "Tomorrow’s tunes",
+            "playlistProducer" : "Obi Datti",
+            "playTime" : "2:01:25",
+            "aboutPlaylist" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+            "totalSongs" : "64 songs ~ 16 hrs+"
+        }
+    ]
+}

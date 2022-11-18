@@ -1,0 +1,39 @@
+{
+   "songs" : [
+        {
+            "title" : "Life in a bubble",
+            "artist" : "The van",
+            "songCover" : "img/Life-in-a-bubble.png"
+        },
+        {
+            "title" : "Mountain",
+            "artist" : "Krisx",
+            "songCover" : "img/Mountain.png"
+        },
+        {
+            "title" : "Limits",
+            "artist" : "John Dillion",
+            "songCover" : "img/Limits.png"
+        },
+        {
+            "title" : "Everything’s black",
+            "artist" : "Ameed",
+            "songCover" : "img/Everything’s-black.png"
+        },
+        {
+            "title" : "Cancelled",
+            "artist" : "Enimen",
+            "songCover" : "img/Cancelled.png"
+        },
+        {
+            "title" : "Nomad",
+            "artist" : "Makrol eli",
+            "songCover" : "img/Nomad.png"
+        },
+        {
+            "title" : "Blind",
+            "artist" : "Wiz zee",
+            "songCover" : "img/Blind.png"
+        }
+    ]
+}
